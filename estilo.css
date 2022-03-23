@@ -1,0 +1,17 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(28, 27, 36);
+    color: white;
+}
+.titulo{
+    font-weight: 300;
+}
+.subtitulo{
+    font-family: 'Courier New', Courier, monospace;
+}
+.paragrafo{
+    font-family: 'Courier New', Courier, monospace;
+}
+.destaque{
+    color: aqua;
+}
