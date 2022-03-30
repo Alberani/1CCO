@@ -1,18 +1,25 @@
 body{
     background-color: black;
     font-family: monospace;
-    color: whitesmoke;
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+    color: gold;
+}
+
+.aqui{
+    font-weight: 900;
+}
+
 .header{
-    border: 3px solid aqua;
+    border-bottom: 3px solid rgb(88, 177, 147);
 
 }
 
-.header .container{
+.container{
     margin: auto;
-    border: 3px solid blueviolet;
     width: 80%;
     display: flex;
     justify-content: space-between  ;
@@ -28,10 +35,9 @@ ul{
 }
 
 .titulo{
-    color: aqua;
+    color: rgb(88, 177, 147);
     border: none;
     width: fit-content;
-    border: 3px solid red;
 }
 
 .navBar{
@@ -42,6 +48,95 @@ ul{
     width: 300px;
     padding: 0;
     align-items: center;
-    border: 3px solid green;
 }
 
+.banner{
+    background-image: url("imgs/bg-jelly-fish-para_outras_pags.png");
+    height: 700px;
+    display: flex;
+}
+
+.banner .container{
+    justify-content: center;
+    font-size: 35px;
+    color: whitesmoke;
+}
+
+.banner .container p span{
+    font-weight: 1000;
+}
+
+.banner .container p{
+    width: 30%;
+}
+
+.banner .container .card{
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    border-radius: 4%;
+}
+
+.banner .container .card h1{
+    font-size: 30px;
+}
+
+.banner .container .card h4{
+    font-size: 16px;
+}
+
+.card input{
+    border: solid 3px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.card button{
+    background-color: rgb(88, 177, 147);
+    margin-top: 50px;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    font: 700 20px monospace;
+    border: none;
+    cursor: pointer;
+}
+
+.social{
+    background-color: white;
+    display: flex;
+}
+
+.social .container .boxes{
+    display: flex;
+}
+
+.social .container .boxes .caixa{
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    flex-direction: column;
+    display: flex;
+}
+
+.social .container .boxes .caixa img{
+    height: 125px;
+}
+
+.footer{
+    color: white;
+    background-color: rgb(88, 177, 147);
+    height: 100px;
+    display: flex;
+}
+
+.footer .container{
+    justify-content: center;
+    align-items: center;
+}
