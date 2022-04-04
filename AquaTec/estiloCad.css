@@ -75,11 +75,18 @@ ul{
     color: black;
     display: flex;
     flex-direction: column;
-    height: 400px;
-    width: 400px;
+    height: 650px;
+    width: 500px;
     align-items: center;
     border-radius: 4%;
+    justify-content: center;
 }
+.banner .container .card .container{
+    color: black;
+    flex-direction: column;
+}
+
+
 
 .banner .container .card h1{
     font-size: 30px;
